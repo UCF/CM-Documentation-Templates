@@ -1,4 +1,4 @@
-Welcome to the {{My Theme}} wiki! This documentation is intended for anyone adding content to a site with this theme activated, and for developers that maintain sites using it.
+Welcome to the {{My Project}} wiki! This documentation is intended for anyone adding content to a site with this theme activated, and for developers that maintain sites using it.
 
 **This documentation assumes a basic understanding of WordPress and how to create and manage content.**  If you're new to WordPress, please take the time to [familiarize yourself with the basics](https://codex.wordpress.org/WordPress_Lessons) until you're comfortable with using the admin interface.
 
@@ -10,9 +10,9 @@ Welcome to the {{My Theme}} wiki! This documentation is intended for anyone addi
 
 ## About this theme
 
-[[https://github.com/UCF/{{My-Theme}}/raw/master/screenshot.png]]
+[[https://github.com/UCF/{{My-Project}}/raw/master/screenshot.png]]
 
-The {{My Theme}} is a WordPress theme developed by UCF Web Communications, intended for {{Who/What? Brief, 1-2 lines}}.
+The {{My Project}} is a WordPress theme developed by UCF Web Communications, intended for {{Who/What? Brief, 1-2 lines}}.
 
 This theme is built using the [Athena Framework](https://ucf.github.io/Athena-Framework/), a front-end web framework that provides mobile-first responsive styles tailored to UCF's brand guidelines.  We strongly recommend that both content editors and developers familiarize themselves with the Athena Framework to better understand this theme and how to style content using it.
 

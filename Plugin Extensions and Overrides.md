@@ -1,4 +1,4 @@
-The {{My Theme}} provides built-in compatibility for the plugins listed below.  The extensions or overrides provided by this theme are also noted:
+The {{My Project}} provides built-in compatibility for the plugins listed below.  The extensions or overrides provided by this theme are also noted:
 
 ## {{Plugin 1}}
 - {{Feature 1, e.g. "Adds X layout for Y post type".  Include screenshot, example usage, and/or link to plugin documentation if relevant.}}

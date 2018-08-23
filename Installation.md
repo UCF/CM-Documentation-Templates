@@ -37,7 +37,7 @@ Before getting started: make sure you've satisfied all the [installation require
 
     - **via standard (manual) installation**
 
-      Download the theme .zip file here: [https://github.com/UCF/{{My-Theme}}/archive/master.zip](https://github.com/UCF/{{My-Theme}}/archive/master.zip)
+      Download the theme .zip file here: [https://github.com/UCF/{{My-Project}}/archive/master.zip](https://github.com/UCF/{{My-Project}}/archive/master.zip)
 
       This theme can be installed via traditional installation methods if desired.  After downloading the latest theme .zip file onto your computer, [follow the steps on this page](https://codex.wordpress.org/Using_Themes#Adding_New_Themes).
 
@@ -45,7 +45,7 @@ Before getting started: make sure you've satisfied all the [installation require
 
     - **via [WP-CLI](http://wp-cli.org/)**
 
-      `$ wp theme install https://github.com/UCF/{{My-Theme}}/archive/master.zip`
+      `$ wp theme install https://github.com/UCF/{{My-Project}}/archive/master.zip`
 
       See the [WP-CLI docs](https://developer.wordpress.org/cli/commands/theme/install/) for more information.
 2. Activate the theme: from your site's admin, navigate to Appearance > Themes, hover over the theme's thumbnail, and click the "Activate" button that appears.
