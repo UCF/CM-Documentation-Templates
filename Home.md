@@ -31,7 +31,7 @@ This theme is built using the [Athena Framework](https://ucf.github.io/Athena-Fr
 ## Technical requirements
 
 ### Installation requirements
-Please see the [Installation docs](Installation.md#installation-requirements) for detailed installation requirements.
+Please see the [[Installation docs|Installation#installation-requirements]] for detailed installation requirements.
 
 ### Browser compatibility
 This theme is compatible with the following browsers:
