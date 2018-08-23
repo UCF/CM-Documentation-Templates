@@ -1,10 +1,16 @@
 Welcome to the {{My Theme}} wiki! This documentation is intended for anyone adding content to a site with this theme activated, and for developers that maintain sites using it.
 
+## Navigation
+- [About this theme](#about-this-theme)
+- [Technical requirements](#technical-requirements)
+
+-----
+
 ## About this theme
 
 [[https://github.com/UCF/{{My-Theme}}/raw/master/screenshot.png]]
 
-The {{My Theme}} is a WordPress theme developed by UCF Marketing, intended for {{Who/What? Brief, 1-2 lines}}.
+The {{My Theme}} is a WordPress theme developed by UCF Web Communications, intended for {{Who/What? Brief, 1-2 lines}}.
 
 This theme is built using the [Athena Framework](https://ucf.github.io/Athena-Framework/), a front-end web framework that provides mobile-first responsive styles tailored to UCF's brand guidelines.  We strongly recommend that both content editors and developers familiarize themselves with the Athena Framework to better understand this theme and how to style content using it.
 
@@ -18,5 +24,21 @@ This theme is built using the [Athena Framework](https://ucf.github.io/Athena-Fr
 
 {{If this theme has a specific, narrow audience, consider referring others to a more generic solution, such as the [UCF WordPress Theme](https://github.com/UCF/UCF-WordPress-Theme/) or a third-party premium theme.}}
 
-### Technical requirements
-For information about installation requirements, cross-browser support, and more, please see the [project readme](https://github.com/UCF/{{My-Theme}}/blob/master/README.md).
+-----
+
+## Technical requirements
+
+### Installation requirements
+Please see the [Installation docs](Installation.md#installation-requirements) for detailed installation requirements.
+
+### Browser compatibility
+This theme is compatible with the following browsers:
+* Chrome: Latest 2 versions (desktop and mobile)
+* Firefox: Latest 2 versions (desktop and mobile)
+* Safari: Latest 2 versions (desktop and mobile)
+* Edge: Latest 2 versions
+* Internet Explorer: IE 11
+
+{{Modify this list as needed!}}
+
+Browsers not listed here are not explicitly supported and may not display sites using this theme correctly.
