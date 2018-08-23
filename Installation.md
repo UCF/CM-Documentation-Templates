@@ -27,7 +27,7 @@ Before getting started: make sure you've satisfied all the [installation require
 
       See the [WP-CLI docs](https://developer.wordpress.org/cli/commands/theme/install/) for more information.
 2. Activate the theme: from your site's admin, navigate to Appearance > Themes, hover over the theme's thumbnail, and click the "Activate" button that appears.
-3. Configure the theme: create and set menus, and [make any other configuration updates noted in the theme readme](https://github.com/UCF/{{My-Theme}}/#Configuration).
+3. Configure the theme: create and set menus, and [make any other configuration updates noted in the theme readme](https://github.com/UCF/{{My-Theme}}/#theme-configuration).
 
 That's it! Now you're ready to start adding content.
 
