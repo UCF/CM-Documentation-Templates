@@ -6,6 +6,8 @@ Welcome to the {{My Theme}} wiki! This documentation is intended for anyone addi
 
 The {{My Theme}} is a WordPress theme developed by UCF Marketing, intended for {{Who/What? Brief, 1-2 lines}}.
 
+This theme is built using the [Athena Framework](https://ucf.github.io/Athena-Framework/), a front-end web framework that provides mobile-first responsive styles tailored to UCF's brand guidelines.  We strongly recommend that both content editors and developers familiarize themselves with the Athena Framework to better understand this theme and how to style content using it.
+
 ### Project goals
 {{Outline or explain, in detail, the specific goals and purpose of this theme, and why it exists.  e.g., "This theme was built to provide a consistent look+feel and user experience for UCF's college websites."}}
 
