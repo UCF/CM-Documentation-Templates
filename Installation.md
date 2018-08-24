@@ -64,6 +64,6 @@ After [installing this theme](#installation-instructions), you should perform th
 * {{IF ACF IS REQUIRED:}} [Download this theme's ACF config file](https://github.com/UCF/{{My-Project}}/blob/master/dev/acf-export.json), and import field groups using the ACF importer under Custom Fields > Tools.
 * {{IF A STATIC FRONT PAGE IS REQUIRED/EXPECTED:}} Create and set a static front page under Settings > Reading.
 * {{Include instructions on assigning header/footer menus here, as needed}}
-* {{IF THEME UTILIZES PREMIUM WEBFONTS:}}If you plan on using [premium webfonts using Cloud.Typography](https://ucf.github.io/Athena-Framework/getting-started/install/#cloudtypography-premium-font-configuration), ensure that webfonts have been properly configured to a Cloud.Typography CSS Key that [allows access to your environment](https://dashboard.typography.com/user-guide/managing-domains). A Cloud.Typography CSS Key URL can be added via the WordPress Customizer (Appearance > Customize > Web Fonts).
+* {{IF THEME UTILIZES PREMIUM WEBFONTS:}}If you plan on using [premium webfonts using Cloud.Typography](https://ucf.github.io/Athena-Framework/getting-started/download-install/#webfont-configuration), ensure that webfonts have been properly configured to a Cloud.Typography CSS Key that [allows access to your environment](https://dashboard.typography.com/user-guide/managing-domains). A Cloud.Typography CSS Key URL can be added via the WordPress Customizer (Appearance > Customize > Web Fonts).
 
 {{Add any additional bullet points as necessary}}
