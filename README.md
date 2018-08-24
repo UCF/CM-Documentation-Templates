@@ -65,6 +65,8 @@ To ensure our projects are created with the latest configurations and README inf
 
     You can perform a couple of project-wide find+replace commands in your IDE/editor to do this quickly.
 
+7. If you're creating a new plugin: rename `my-project.php` to use your project's slug.
+
 That's it!  From here, continue developing your plugin or theme as you would normally.  **Remember to fill in the remaining placeholder information for your project** in the README, CONTRIBUTING doc, and other files! (You can do a project-wide search for `{{` to locate all of these placeholders.)
 
 ### Post-setup checklist:
