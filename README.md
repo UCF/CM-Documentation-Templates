@@ -77,7 +77,7 @@ In addition to setting up your new project on Github using these files, remember
     If your Slack channel name doesn't fit within Slack's allotted character limit, you will need to update references to the project-specific channel URL throughout the project's files.
 - [Set up a project wiki](#creating-a-new-wiki) for hosting documentation
 
-### Project Assumptions
+### Project assumptions
 
 Projects generated using these template files assume the following:
 
