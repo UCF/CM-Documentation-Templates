@@ -10,12 +10,12 @@ This plugin is developed and tested against WordPress 4.9.7+ and PHP 5.4.x+. {{M
 
 While this plugin should work against any server running the [minimum requirements for WordPress installations](https://wordpress.org/about/requirements/), we cannot guarantee compatibility with, or provide support for, installations on non-LAMP stacks (e.g. Windows installations).
 
-### Required Plugins
+### Required plugins
 These plugins *must* be activated for {{My Project}} to function properly.
 
 {{Bulleted list of required plugins + links to readmes/documentation here}}
 
-### Supported Plugins
+### Supported plugins
 The plugins listed below are extended upon in this plugin--this may include custom layouts for feeds, additional functionality, etc.  These plugins are not technically required on sites running this plugin, and shouldn't be activated on sites that don't require their features.  A plugin does not have to be listed here to be compatible with {{My Project}}.
 
 For more information on how these plugins are extended in {{My Project}}, please see our [[Plugin Extensions and Overrides docs|Plugin Extensions and Overrides]].

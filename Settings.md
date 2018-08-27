@@ -1,10 +1,10 @@
 ## Navigation
-- [{{Setting Section 1}}](#{{setting-section-1}})
-- [{{Setting Section 2}}](#{{setting-section-2}})
+- [{{Setting section 1}}](#{{setting-section-1}})
+- [{{Setting section 2}}](#{{setting-section-2}})
 
 -----
 
-## {{Setting Section 1}}
+## {{Setting section 1}}
 
 ### {{Setting A}}
 **Default**: {{default value}}
@@ -19,7 +19,7 @@
 
 -----
 
-## {{Setting Section 2}}
+## {{Setting section 2}}
 
 ### {{Setting C}}
 **Default**: {{default value}}

@@ -10,7 +10,7 @@ All of the layouts listed below are available with this plugin out-of-the-box.  
 
 -----
 
-## Included Layouts
+## Included layouts
 
 ### {{Layout 1}} {{IF LAYOUT IS THE DEFAULT LAYOUT OPTION}}(Default){{ENDIF}}
 **Layout slug:** `{{layout_1_slug}}`
