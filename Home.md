@@ -5,8 +5,6 @@ Welcome to the {{My Project}} wiki! This documentation is intended for anyone ad
 
 ## About this plugin
 
-[[https://github.com/UCF/{{My-Project}}/raw/master/screenshot.png]]
-
 The {{My Project}} is a WordPress plugin developed by UCF Web Communications, intended for {{Who/What? Brief, 1-2 lines}}.
 
 ### Project goals
