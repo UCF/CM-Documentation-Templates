@@ -6,11 +6,14 @@
 
 [[Installation]]
 
-[[Plugin Settings]]
+[[Layouts]]
+
+[[Plugin Extensions and Overrides]]
+
+[[Settings]]
 
 [[Shortcodes]]
 
-[[Layouts]]
 
 # For Developers
 
