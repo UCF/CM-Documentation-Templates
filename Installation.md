@@ -49,7 +49,9 @@ Before getting started: make sure you've satisfied all the [installation require
       `$ wp plugin install https://github.com/UCF/{{My-Project}}/archive/master.zip`
 
       See the [WP-CLI docs](https://developer.wordpress.org/cli/commands/plugin/install/) for more information.
+
 2. Activate the plugin: from your site's admin, click "Plugins" in the admin menu, find {{My Project}} in the list of plugins, and click "Activate".
+
 3. Configure the plugin: Navigate to Settings > {{My Project}}{{Update this path as necessary!!}}, and update any default plugin settings as necessary for your site.  See the [[plugin settings docs|Plugin Settings]] for detailed information on available options.
 
 That's it! Now you're ready to start using this plugin.
