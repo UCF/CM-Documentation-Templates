@@ -14,14 +14,14 @@ While this theme should work against any server running the [minimum requirement
 ### Required Plugins
 These plugins *must* be activated for the theme to function properly.
 
-{{Bulleted list of required themes + links to readmes/documentation here}}
+{{Bulleted list of required plugins + links to readmes/documentation here}}
 
 ### Supported Plugins
 The plugins listed below are extended upon in this theme--this may include custom layouts for feeds, style modifications, etc.  These plugins are not technically required on sites running this theme, and shouldn't be activated on sites that don't require their features.  A plugin does not have to be listed here to be compatible with this theme.
 
 For more information on how these plugins are extended in this theme, please see our [[Plugin Extensions and Overrides docs|Plugin Extensions and Overrides]].
 
-{{Bulleted list of supported themes + links to readmes/documentation here}}
+{{Bulleted list of supported plugins + links to readmes/documentation here}}
 
 -----
 
