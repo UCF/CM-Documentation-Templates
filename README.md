@@ -77,6 +77,22 @@ In addition to setting up your new project on Github using these files, remember
     If your Slack channel name doesn't fit within Slack's allotted character limit, you will need to update references to the project-specific channel URL throughout the project's files.
 - [Set up a project wiki](#creating-a-new-wiki) for hosting documentation
 
+### Project Assumptions
+
+Projects generated using these template files assume the following:
+
+#### General
+- The developer is responsible for setting up registration of ALL project css and js; no enqueuing is included in the template files out-of-the-box
+- Minified css and js will be saved to `static/`
+
+#### Themes
+- The Athena Framework is included in all generated themes
+- `style.css` is NOT a registered stylesheet, in favor of `static/css/style.min.css`
+- If ACF is a required plugin, its field config should be saved to `dev/acf-config.json`
+
+#### Plugins
+- n/a
+
 -----
 
 ## Creating a new wiki
