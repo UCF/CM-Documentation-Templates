@@ -1,97 +1,21 @@
-# CM-Project-Templates
+# CM-Documentation-Templates
 
-A set of project documentation and configuration templates for use in new projects by UCF CM.
+A set of project documentation templates for use in new projects by UCF CM.
 
 
 ## How to use these files
 
-In this project, each set of available templates is split out into unique branches.  Templates are grouped by project type and purpose; e.g. `plugin-files`, `theme-wiki`.
+In this project, each set of available templates is split out into unique branches.  Templates are grouped by project type; e.g. `plugin-wiki`, `theme-wiki`.
 
 Know what you're looking for?  See below:
 
 ### How-Tos
-- [Create a new theme or plugin](#creating-a-new-theme-or-plugin)
 - [Create a new wiki](#creating-a-new-wiki)
+- [Create a new theme or plugin](#creating-a-new-theme-or-plugin)
 
-### WordPress Plugin Files
-- [Plugin template files](https://github.com/UCF/CM-Documentation-Templates/tree/plugin-files)
-- [Plugin wiki template](https://github.com/UCF/CM-Documentation-Templates/tree/plugin-wiki)
-
-### WordPress Theme Files
-- [Theme template files](https://github.com/UCF/CM-Documentation-Templates/tree/theme-files)
-- [Theme wiki template](https://github.com/UCF/CM-Documentation-Templates/tree/theme-wiki)
-
------
-
-## Creating a new theme or plugin
-
-To ensure our projects are created with the latest configurations and README information, CM devs should start new projects from template branches in this repo.  Use the guide below to get started:
-
-### Instructions:
-
-1. [Create a new repository in Github](https://github.com/new).  Do not initialize the repo with a README or other extra files.
-
-2. Within your local WordPress instance, create a new directory for your project, and name it whatever you named your new repo in Github.
-
-    For a new plugin, this directory should be created in `/wp-content/plugins/`; for a new theme, create it in `/wp-content/themes/`.
-
-3. `cd` into the new plugin or theme directory in your WordPress instance.
-
-4. Pull down the relevant template files for your project.
-
-    **For plugins:**
-
-    `git clone --depth=1 -b plugin-files git@github.com:UCF/CM-Project-Templates.git .; rm -rf .git`
-
-    **For themes:**
-
-    `git clone --depth=1 -b theme-files git@github.com:UCF/CM-Project-Templates.git .; rm -rf .git`
-
-5. Initialize a new git repository with the template files and push them up to Github, as you would normally (where "MY-PROJECT" refers to the project name you used on Github):
-
-    ```
-    git init
-    git add --all
-    git commit -m "Initial commit"
-    git remote add origin git@github.com:UCF/MY-PROJECT.git
-    git push -u origin master
-    ```
-
-6. Replace `{{My-Project}}` and `{{My Project}}` placeholders throughout the template files.
-
-    `{{My-Project}}` corresponds to the the **slug of your project on Github**, e.g. `Main-Site-Theme`.
-
-    `{{My Project}}` should be replaced with the **human-friendly name** of your project, e.g. `Main Site Theme`.
-
-    You can perform a couple of project-wide find+replace commands in your IDE/editor to do this quickly.
-
-7. If you're creating a new plugin: rename `my-project.php` to use your project's slug.
-
-That's it!  From here, continue developing your plugin or theme as you would normally.  **Remember to fill in the remaining placeholder information for your project** in the README, CONTRIBUTING doc, and other files! (You can do a project-wide search for `{{` to locate all of these placeholders.)
-
-### Post-setup checklist:
-In addition to setting up your new project on Github using these files, remember to also do the following for all new projects.  Some parts of our project documentation depend on the following existing:
-
-- Set up a new channel on the ucf-wp Slack workspace for your project, using the naming convention `#prj-MY-PROJECT`, where `MY-PROJECT` corresponds to the **slug of your project on Github**, e.g. `#prj-Main-Site-Theme`.
-
-    If your Slack channel name doesn't fit within Slack's allotted character limit, you will need to update references to the project-specific channel URL throughout the project's files.
-- [Set up a project wiki](#creating-a-new-wiki) for hosting documentation
-
-### Project assumptions
-
-Projects generated using these template files assume the following:
-
-#### General
-- The developer is responsible for setting up registration of ALL project css and js; no enqueuing is included in the template files out-of-the-box
-- Minified css and js will be saved to `static/`
-
-#### Themes
-- The Athena Framework is included in all generated themes
-- `style.css` is NOT a registered stylesheet, in favor of `static/css/style.min.css`
-- If ACF is a required plugin, its field config should be saved to `dev/acf-config.json`
-
-#### Plugins
-- n/a
+### Wiki Files
+- [WordPress Theme wiki template](https://github.com/UCF/CM-Documentation-Templates/tree/theme-wiki)
+- [WordPress Plugin wiki template](https://github.com/UCF/CM-Documentation-Templates/tree/plugin-wiki)
 
 -----
 
@@ -117,11 +41,11 @@ Whenever you're starting a new project hosted on Github, you should set up a new
 
     **For plugin wikis:**
 
-    `git clone --depth=1 -b plugin-wiki git@github.com:UCF/CM-Project-Templates.git .; rm -rf .git`
+    `git clone --depth=1 -b plugin-wiki git@github.com:UCF/CM-Documentation-Templates.git .; rm -rf .git`
 
     **For theme wikis:**
 
-    `git clone --depth=1 -b theme-wiki git@github.com:UCF/CM-Project-Templates.git .; rm -rf .git`
+    `git clone --depth=1 -b theme-wiki git@github.com:UCF/CM-Documentation-Templates.git .; rm -rf .git`
 
 5. Initialize a new git repository, and force push it up to the wiki repo on Github (where "MY-PROJECT" refers to the project name you used on Github):
 
@@ -144,3 +68,12 @@ Whenever you're starting a new project hosted on Github, you should set up a new
 From this point, you can [edit your project's wiki files directly in Github](https://help.github.com/articles/adding-wiki-pages-via-the-online-interface/), or [continue editing the wiki repo locally](https://help.github.com/articles/adding-and-editing-wiki-pages-locally/) (note that you _must_ work locally to commit and push images up to the wiki).  See [Github's wiki documentation](https://help.github.com/articles/about-github-wikis/#further-reading) for more information.
 
 **Remember to fill in the remaining placeholder information for your project wiki** in the provided template files! (You can do a project-wide search for `{{` to locate all of these placeholders.)
+
+-----
+
+## Creating a new theme or plugin
+
+Looking for WordPress theme and plugin project templates?  Since Github launched its project template feature, these have been moved out of this repo into their own separate template repos:
+
+- [WordPress Theme template](https://github.com/UCF/CM-WP-Theme-Template)
+- [WordPress Plugin template](https://github.com/UCF/CM-WP-Plugin-Template)
