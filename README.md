@@ -76,4 +76,5 @@ From this point, you can [edit your project's wiki files directly in Github](htt
 Looking for WordPress theme and plugin project templates?  Since Github launched its project template feature, these have been moved out of this repo into their own separate template repos:
 
 - [WordPress Theme template](https://github.com/UCF/CM-WP-Theme-Template)
+- [WordPress Child Theme template](https://github.com/UCF/CM-WP-Child-Theme-Template)
 - [WordPress Plugin template](https://github.com/UCF/CM-WP-Plugin-Template)
