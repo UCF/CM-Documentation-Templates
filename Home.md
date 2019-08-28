@@ -1,6 +1,6 @@
 Welcome to the {{My Project}} wiki! This documentation is intended for anyone adding content to a site with this theme activated, and for developers that maintain sites using it.
 
-**This documentation assumes a basic understanding of WordPress and how to create and manage content.**  If you're new to WordPress, please take the time to [familiarize yourself with the basics](https://codex.wordpress.org/WordPress_Lessons) until you're comfortable with using the admin interface.
+**This documentation assumes a basic understanding of WordPress and how to create and manage content.**  If you're new to WordPress, please take the time to [familiarize yourself with the basics](https://wordpress.org/support/article/wordpress-lessons/) until you're comfortable with using the admin interface.
 
 ## Navigation
 - [About this theme](#about-this-theme)
